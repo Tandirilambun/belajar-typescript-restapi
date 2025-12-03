@@ -1,0 +1,43 @@
+{
+  "name": "belajar-typescript-restapi",
+  "version": "1.0.0",
+  "description": "repo untuk belajar typescript dengan studi kasus rest api untuk contact management",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "babel-jest"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tandirilambun/belajar-typescript-restapi.git"
+  },
+  "author": "tndirilmbn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tandirilambun/belajar-typescript-restapi/issues"
+  },
+  "homepage": "https://github.com/Tandirilambun/belajar-typescript-restapi#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.2.1",
+    "winston": "^3.18.3",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.28.5",
+    "@babel/preset-typescript": "^7.28.5",
+    "@jest/globals": "^30.2.0",
+    "@types/bcrypt": "^6.0.0",
+    "@types/express": "^5.0.6",
+    "@types/jest": "^30.0.0",
+    "@types/supertest": "^6.0.3",
+    "babel-jest": "^30.2.0",
+    "prisma": "^7.1.0",
+    "supertest": "^7.1.4",
+    "typescript": "^5.9.3"
+  }
+}

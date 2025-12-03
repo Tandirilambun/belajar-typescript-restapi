@@ -1,0 +1,39 @@
+User Management : 
+- Username
+- Password
+- Name
+
+User API :
+~ Register User
+~ Login User
+~ Update User
+~ Get User
+~ Logout User
+
+Contact Data :
+- First Name
+- Last Name
+- Email
+- Phone
+
+Contact API :
+~ Create Contact
+~ Update Contact
+~ Get Contact
+~ Search Contact
+~ Remove Contact
+
+Address Management :
+- Street
+- City
+- Province
+- Country
+- Postal Code
+
+Address API
+~ Create Address
+~ Update Address
+~ Get Address
+~ List Address
+~ Remove Address
+
